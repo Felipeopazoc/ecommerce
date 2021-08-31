@@ -1,0 +1,21 @@
+
+@media only screen and (max-width:425px) {
+    .descripcion-section{
+        width: 90%;
+        flex-direction: column;
+    }
+    .descripcion-section > .hgroup{
+        width: 100%;
+        margin: 0 auto;
+        margin-top:15px;
+    }
+    .list > li > a{
+        font-size: 25px;
+        padding: 5px;
+    }
+}
+@media only screen and(max-width:375px){
+    .descripcion-section > img {
+        width: 300px;
+    }
+}
